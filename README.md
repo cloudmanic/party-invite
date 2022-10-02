@@ -31,3 +31,10 @@ Please organize, design, test and document your code as if it were going into pr
 All the best and happy coding,
 
 The sFOX Team
+
+## Developer Notes
+
+* Code required Golang 1.18+
+* To test the entire project `go test ./...`
+* To run this app: `go run *.go`
+* To test this app with curl: `curl -F file=@data/customers.txt http://localhost:8080/v1/customers/invite`
